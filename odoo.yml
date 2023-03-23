@@ -1,0 +1,9 @@
+---
+- hosts: all
+  tasks:
+  - name: install odoo application
+    copy:
+      src: ansible_test_app
+      dest: /tmp/
+      owner: root
+      group: root
