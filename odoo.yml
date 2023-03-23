@@ -1,5 +1,5 @@
 ---
-- hosts: all
+- hosts: odoo
   tasks:
   - name: install odoo application
     copy:
